@@ -13,7 +13,7 @@ Certification.
 
 The following is description of a business problem encountered by a bike-sharing company called "Cyclistic".
 
-![Cyclistic logo]("C:/Users/Solomon/Documents/RFiles/divvy-quarterly-data/csv/cycl-logo.png")
+![Cyclistic logo]("../csv/cycl-logo.png")
 
 Cyclistic representatives claim that annual members are much more profitable than casual ones, therefore the task is to figure out ways to convert the latter into the former ones. Based on that analysis marketing strategies can be designed accordingly. In order to achieve this goal, differences between two groups have to be identified, i.e. why would a casual rider acquire an annual membership and how digital media could play a role in their marketing tactics. 
 
@@ -270,6 +270,6 @@ all_trips_v2 %>%
 #### Save the average ride length variable in a .csv file
 
 ```{r include=FALSE}
-write.csv(counts, file = 'C:/Users/Solomon/Documents/RFiles/divvy-quarterly-data/csv/avg_ride_length.csv')
+write.csv(counts, file = '../csv/avg_ride_length.csv')
 ```
 
